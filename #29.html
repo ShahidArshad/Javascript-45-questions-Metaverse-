@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        var favorite_fruits = ['mango','banana','orange','watermillon','apple']
+
+        function fn_check_fuit(fruit){
+            for(i=0;i<=favorite_fruits.length;i++){
+                if (favorite_fruits[i] == fruit){
+                    document.write("<h1>You really like "+favorite_fruits[i]+"!</h1>");
+                    break;
+                }
+            }
+        }
+        fn_check_fuit("apple")
+        fn_check_fuit("malta")
+        fn_check_fuit("orange")
+        fn_check_fuit("banna")
+        fn_check_fuit("mango")
+        fn_check_fuit("watermillon")
+
+      </script>  
+</body>
+</html>
