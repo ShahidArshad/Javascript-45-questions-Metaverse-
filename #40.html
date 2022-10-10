@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function make_album(artist, title, tracks) {
+             this.artist=artist;
+             this.title=title;
+             if(tracks != undefined) {
+                 this.tracks = tracks;
+ 
+             }
+         }
+ 
+         var album1 = new make_album("Suno Nigum", "Chanda ki doli me");
+         var album2 = new make_album("Atif Aslam", "Anso tery");
+         var album3 = new make_album("Adnana Sami", "Dholki");
+ 
+         console.log(album1, album2,album3);
+ 
+     </script>
+</body>
+</html>
