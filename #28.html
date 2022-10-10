@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        function fn_person_age(age){
+            if(age < 2){
+            document.write("<h1>the person is a baby</h1>");
+            }else if (age>=2 && age <4 ){
+                document.write("<h1>the person is a toddler</h1>");
+            }else if(age>=4 && age < 13){
+                document.write("<h1>the person is a kid</h1>");
+            }else if(age>=13 && age < 20){
+                document.write("<h1>the person is a teenager</h1>");
+            }else if(age>= 20 && age < 65){
+                document.write("<h1>the person is a adult</h1>");
+            }else if(age>=65){
+                document.write("<h1>the person is a elder</h1>");
+            }
+
+        }
+        
+        fn_person_age(1)
+        fn_person_age(3)
+        fn_person_age(5)
+        fn_person_age(18)
+        fn_person_age(25)
+        fn_person_age(70)
+
+      </script>  
+</body>
+</html>
